@@ -60,7 +60,6 @@ git clone https://github.com/k4yraa/network-recon-toolkit.git
 cd network-recon-toolkit
 pip install -r requirements.txt
 
-```bash
 USAGE
 python main.py github.com
 python main.py https://example.com --json
