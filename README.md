@@ -5,6 +5,9 @@
 # Network Recon Toolkit
 A passive reconnaissance tool for collecting basic information about a target, including DNS, HTTP, TLS and WHOIS data.
 
+## Overview
+This tool performs passive reconnaissance without direct interaction with the target infrastructure.
+
 ## Features
 - Domain, IP or URL input
 - DNS resolution and reverse lookup
@@ -16,7 +19,28 @@ A passive reconnaissance tool for collecting basic information about a target, i
 - TLS certificate summary
 - WHOIS information
 - JSON output support
-  
+
+## Example Output
+Target: github.com
+
+IP: 140.82.x.x
+Location: Germany
+Server: GitHub
+
+Response Time: 120ms
+
+Security Headers:
+
+Strict-Transport-Security
+
+Content-Security-Policy
+
+DNS:
+
+MX: ...
+
+TXT: ...
+
 # Disclaimer
 
 This tool is intended for educational purposes and authorized testing only.
