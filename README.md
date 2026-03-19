@@ -1,5 +1,8 @@
-# Network Recon Toolkit
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/status-active-success)
+![License](https://img.shields.io/badge/license-MIT-green)
 
+# Network Recon Toolkit
 A passive reconnaissance tool for collecting basic information about a target, including DNS, HTTP, TLS and WHOIS data.
 
 ## Features
