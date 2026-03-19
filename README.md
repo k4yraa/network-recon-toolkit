@@ -52,15 +52,14 @@ Results may vary depending on network conditions and target configuration
 
 Some data sources rely on external services
 
+
 ## Installation
+
 ```bash
 git clone https://github.com/k4yraa/network-recon-toolkit.git
 cd network-recon-toolkit
 pip install -r requirements.txt
-
-## Usage
-```bash
+Usage
 python main.py github.com
 python main.py https://example.com --json
 python main.py example.com --output report.json
-
